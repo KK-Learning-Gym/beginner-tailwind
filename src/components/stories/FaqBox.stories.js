@@ -1,6 +1,6 @@
 import React from 'react'
 
-import FaqBox from './FaqBox'
+import FaqBox from '../FaqBox'
 
 export default {
 	component: FaqBox,
@@ -12,5 +12,5 @@ const Template = args => <FaqBox {...args} />
 export const Default = Template.bind({})
 Default.args = {
 	title: 'What is this?',
-	children: <div>This is some FAQ component.</div>,
+	text: 'This is a FAQ Box. It contains a question with its answer.',
 }
