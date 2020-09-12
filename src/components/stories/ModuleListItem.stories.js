@@ -8,7 +8,7 @@ export default {
 }
 
 const Styled = props => {
-	return <div className="bg-gray-800 w-9/12">{props.children}</div>
+	return <div className="bg-gray-700">{props.children}</div>
 }
 
 const Template = args => (
@@ -23,3 +23,4 @@ Default.args = {
 	noOfVideos: 5,
 	duration: 44,
 }
+

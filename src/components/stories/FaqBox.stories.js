@@ -14,3 +14,6 @@ Default.args = {
 	title: 'What is this?',
 	text: 'This is a FAQ Box. It contains a question with its answer.',
 }
+Default.parameters = {
+	backgrounds: { default: 'dark' },
+}
