@@ -13,7 +13,7 @@
 	},
 	"scripts": {
 		"build:tailwind": "npx tailwindcss build src/tailwind.css -o src/tailwind.generated.css",
-		"prebuild": "NODE_ENV=production build:tailwind",
+		"prebuild": "NODE_ENV=production yarn build:tailwind",
 		"build": "react-scripts build",
 		"prestart": "yarn run build:tailwind",
 		"start": "react-scripts start",

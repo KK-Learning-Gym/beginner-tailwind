@@ -7,15 +7,7 @@ export default {
 	title: 'Module List Item',
 }
 
-const Styled = props => {
-	return <div className="bg-gray-700">{props.children}</div>
-}
-
-const Template = args => (
-	<Styled>
-		<ModuleListItem {...args} />
-	</Styled>
-)
+const Template = args => <ModuleListItem {...args} />
 
 export const Default = Template.bind({})
 Default.args = {
@@ -23,4 +15,3 @@ Default.args = {
 	noOfVideos: 5,
 	duration: 44,
 }
-
