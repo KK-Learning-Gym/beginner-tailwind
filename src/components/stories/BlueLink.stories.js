@@ -4,7 +4,7 @@ import BlueLink from '../BlueLink'
 
 export default {
 	component: BlueLink,
-	title: 'Blue Link',
+	title: 'Components/Links/Blue Link',
 }
 
 const Template = args => <BlueLink {...args} />

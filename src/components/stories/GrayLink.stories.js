@@ -4,7 +4,7 @@ import GrayLink from '../GrayLink'
 
 export default {
 	component: GrayLink,
-	title: 'Gray Link',
+	title: 'Components/Links/Gray Link',
 }
 
 const Template = args => <GrayLink {...args} />

@@ -4,7 +4,7 @@ import FaqBox from '../FaqBox'
 
 export default {
 	component: FaqBox,
-	title: 'FAQ Box',
+	title: 'Components/FAQ Box',
 }
 
 const Template = args => <FaqBox {...args} />

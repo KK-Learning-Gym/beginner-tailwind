@@ -4,7 +4,7 @@ import ModuleSection from '../ModuleSection'
 
 export default {
 	component: ModuleSection,
-	title: 'Module Section',
+	title: 'Sections/Module Section',
 }
 
 const Template = args => <ModuleSection {...args} />

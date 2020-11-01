@@ -4,7 +4,7 @@ import SubscriptionForm from '../SubscriptionForm'
 
 export default {
 	component: SubscriptionForm,
-	title: 'Subscription Form',
+	title: 'Components/Subscription Form',
 }
 
 const Template = args => <SubscriptionForm {...args} />

@@ -4,7 +4,7 @@ import EmojiCard from '../EmojiCard'
 
 export default {
 	component: EmojiCard,
-	title: 'Emoji Card',
+	title: 'Components/Emoji Card',
 }
 
 const Template = args => <EmojiCard {...args} />

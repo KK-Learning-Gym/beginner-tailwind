@@ -4,7 +4,7 @@ import ModuleListItem from '../ModuleListItem'
 
 export default {
 	component: ModuleListItem,
-	title: 'Module List Item',
+	title: 'Components/Module List Item',
 }
 
 const Template = args => <ModuleListItem {...args} />

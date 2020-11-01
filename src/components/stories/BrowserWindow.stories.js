@@ -4,7 +4,7 @@ import BrowserWindow from '../BrowserWindow'
 
 export default {
 	component: BrowserWindow,
-	title: 'Browser Window',
+	title: 'Components/Browser Window',
 }
 
 const Template = args => (

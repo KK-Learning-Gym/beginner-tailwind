@@ -4,7 +4,7 @@ import PurchaseCard from '../PurchaseCard'
 
 export default {
 	component: PurchaseCard,
-	title: 'Purchase Card',
+	title: 'Components/Purchase Card',
 }
 
 const Template = args => <PurchaseCard {...args} />

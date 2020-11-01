@@ -26,7 +26,3 @@ Kunal Kundu - [@tinfoil-knight](https://github.com/tinfoil-knight)
 ## Acknowledgements
 
 [Chris on Code](https://github.com/chris-on-code) for creating such a wonderful website using only TailwindCSS.
-
-
-
-
